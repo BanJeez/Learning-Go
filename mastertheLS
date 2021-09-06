@@ -1,4 +1,3 @@
 #! bin/bash
 
-ls -p | grep -v / | tr '\n' ','
-
+ls -t | tr '\n' ',' | sed 's/.$//'
