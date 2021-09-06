@@ -1,3 +1,3 @@
 #! bin\bash
 
-find . -name "*.sh" | cut -c 3-7
+find . -iname "*.sh" | sed "s/.*\///; s/\.sh//"
