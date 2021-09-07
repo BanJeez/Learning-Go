@@ -11,4 +11,5 @@ func main() {
 		// fmt.Println(i)
 		z01.PrintRune(rune(aRune[i]))
 	}
+	z01.PrintRune('\n')
 }
