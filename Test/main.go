@@ -1,15 +1,16 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"piscine"
+)
 
-// Main Function
 func main() {
-	for a := 0; a <= 7; a++ {
-		for b := a + 1; b <= 8; b++ {
-			for c := b + 1; c <= 9; c++ {
-				fmt.Println(a, b, c)
-				fmt.Println(",")
-			}
-		}
-	}
+	a := 13
+	b := 2
+	var div int
+	var mod int
+	piscine.DivMod(a, b, &div, &mod)
+	fmt.Println(div)
+	fmt.Println(mod)
 }
