@@ -4,7 +4,7 @@ func MakeRange(min, max int) []int {
 	ii := min
 	var B []int
 
-	if max < min {
+	if max < min || max == min {
 		return B
 	}
 	A := make([]int, max-min)
