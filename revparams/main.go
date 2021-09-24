@@ -10,7 +10,7 @@ func main() {
 	argument := os.Args
 	// aba := argument[1]
 
-	for ai := len(argumen) - 1; ai >= 1; ai-- {
+	for ai := len(argument) - 1; ai >= 1; ai-- {
 		for _, x := range argument[ai] {
 			z01.PrintRune(rune(x))
 		}
